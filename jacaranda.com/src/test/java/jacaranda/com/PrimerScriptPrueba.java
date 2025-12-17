@@ -30,13 +30,15 @@ public class PrimerScriptPrueba {
 			Thread.sleep(5000); // Pausa el script por 5 segundos (5000 milisegundos)
 			WebElement link = driver.findElement(By.linkText("Learn more"));
 			link.click();
-			Thread.sleep(5000); // Pausa el script por 5 segundos (5000 milisegundos)
+			// Pausa el script por 5 segundos (5000 milisegundos)
 		} catch (InterruptedException e) {
 			Thread.currentThread().interrupt();
 		}
 	// Aquí iría una validación (ej. Assert.assertEquals(driver.getTitle(),
 	//"Ejemplo Dominio");)
 		assertEquals(driver.getCurrentUrl(), "https://www.iana.org/help/example-domains");
+		
+		assertTrue(driver.findElement(By.tagName("h2")).getText().equals("Further Reading"));
 	}
 	@AfterClass // Limpieza: Se ejecuta al final
 	public void teardown() {

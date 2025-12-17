@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-17T09:36:01 CET" name="Default suite" finished-at="2025-12-17T09:36:16 CET" duration-ms="14690">
+  <suite started-at="2025-12-17T10:00:47 CET" name="Default suite" finished-at="2025-12-17T10:00:57 CET" duration-ms="9888">
     <groups>
     </groups>
-    <test started-at="2025-12-17T09:36:01 CET" name="Default test" finished-at="2025-12-17T09:36:16 CET" duration-ms="14690">
+    <test started-at="2025-12-17T10:00:47 CET" name="Default test" finished-at="2025-12-17T10:00:57 CET" duration-ms="9888">
       <class name="jacaranda.com.PrimerScriptPrueba">
-        <test-method is-config="true" signature="setup()[pri:0, instance:jacaranda.com.PrimerScriptPrueba@1ffaf86]" started-at="2025-12-17T09:36:01 CET" name="setup" finished-at="2025-12-17T09:36:03 CET" duration-ms="1642" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:jacaranda.com.PrimerScriptPrueba@5f577419]" started-at="2025-12-17T10:00:47 CET" name="setup" finished-at="2025-12-17T10:00:49 CET" duration-ms="2041" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verificarTituloPaginaTest()[pri:0, instance:jacaranda.com.PrimerScriptPrueba@1ffaf86]" started-at="2025-12-17T09:36:03 CET" name="verificarTituloPaginaTest" finished-at="2025-12-17T09:36:16 CET" duration-ms="12913" status="PASS">
+        <test-method signature="verificarTituloPaginaTest()[pri:0, instance:jacaranda.com.PrimerScriptPrueba@5f577419]" started-at="2025-12-17T10:00:49 CET" name="verificarTituloPaginaTest" finished-at="2025-12-17T10:00:57 CET" duration-ms="7652" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificarTituloPaginaTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:jacaranda.com.PrimerScriptPrueba@1ffaf86]" started-at="2025-12-17T09:36:16 CET" name="teardown" finished-at="2025-12-17T09:36:16 CET" duration-ms="92" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:jacaranda.com.PrimerScriptPrueba@5f577419]" started-at="2025-12-17T10:00:57 CET" name="teardown" finished-at="2025-12-17T10:00:57 CET" duration-ms="121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
