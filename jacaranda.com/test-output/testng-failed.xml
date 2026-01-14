@@ -7,6 +7,7 @@
         <methods>
           <include name="verificarTituloPaginaTest"/>
           <include name="setup"/>
+          <include name="esperarHelloWorld"/>
           <include name="teardown"/>
         </methods>
       </class> <!-- jacaranda.com.PrimerScriptPrueba -->

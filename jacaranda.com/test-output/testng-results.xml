@@ -1,21 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-17T10:00:47 CET" name="Default suite" finished-at="2025-12-17T10:00:57 CET" duration-ms="9888">
+  <suite started-at="2026-01-14T09:23:16 CET" name="Default suite" finished-at="2026-01-14T09:23:41 CET" duration-ms="25581">
     <groups>
     </groups>
-    <test started-at="2025-12-17T10:00:47 CET" name="Default test" finished-at="2025-12-17T10:00:57 CET" duration-ms="9888">
+    <test started-at="2026-01-14T09:23:16 CET" name="Default test" finished-at="2026-01-14T09:23:41 CET" duration-ms="25581">
       <class name="jacaranda.com.PrimerScriptPrueba">
-        <test-method is-config="true" signature="setup()[pri:0, instance:jacaranda.com.PrimerScriptPrueba@5f577419]" started-at="2025-12-17T10:00:47 CET" name="setup" finished-at="2025-12-17T10:00:49 CET" duration-ms="2041" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:jacaranda.com.PrimerScriptPrueba@13e344d]" started-at="2026-01-14T09:23:16 CET" name="setup" finished-at="2026-01-14T09:23:17 CET" duration-ms="1565" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verificarTituloPaginaTest()[pri:0, instance:jacaranda.com.PrimerScriptPrueba@5f577419]" started-at="2025-12-17T10:00:49 CET" name="verificarTituloPaginaTest" finished-at="2025-12-17T10:00:57 CET" duration-ms="7652" status="PASS">
+        <test-method signature="esperarEnlace()[pri:0, instance:jacaranda.com.PrimerScriptPrueba@13e344d]" started-at="2026-01-14T09:23:17 CET" name="esperarEnlace" finished-at="2026-01-14T09:23:24 CET" duration-ms="6507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- esperarEnlace -->
+        <test-method signature="esperarHelloWorld()[pri:0, instance:jacaranda.com.PrimerScriptPrueba@13e344d]" started-at="2026-01-14T09:23:24 CET" name="esperarHelloWorld" finished-at="2026-01-14T09:23:30 CET" duration-ms="6277" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Hello World!] but found [Hello World]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Hello World!] but found [Hello World]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at jacaranda.com.PrimerScriptPrueba.esperarHelloWorld(PrimerScriptPrueba.java:85)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- esperarHelloWorld -->
+        <test-method signature="verificarInicioSesion()[pri:0, instance:jacaranda.com.PrimerScriptPrueba@13e344d]" started-at="2026-01-14T09:23:30 CET" name="verificarInicioSesion" finished-at="2026-01-14T09:23:36 CET" duration-ms="5774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificarInicioSesion -->
+        <test-method signature="verificarTituloPaginaTest()[pri:0, instance:jacaranda.com.PrimerScriptPrueba@13e344d]" started-at="2026-01-14T09:23:36 CET" name="verificarTituloPaginaTest" finished-at="2026-01-14T09:23:41 CET" duration-ms="5325" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Epic sadface: Username and password do not match any user in this service] but found [Your username is invalid!]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Epic sadface: Username and password do not match any user in this service] but found [Your username is invalid!]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at jacaranda.com.PrimerScriptPrueba.verificarTituloPaginaTest(PrimerScriptPrueba.java:66)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificarTituloPaginaTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:jacaranda.com.PrimerScriptPrueba@5f577419]" started-at="2025-12-17T10:00:57 CET" name="teardown" finished-at="2025-12-17T10:00:57 CET" duration-ms="121" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:jacaranda.com.PrimerScriptPrueba@13e344d]" started-at="2026-01-14T09:23:41 CET" name="teardown" finished-at="2026-01-14T09:23:41 CET" duration-ms="93" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
